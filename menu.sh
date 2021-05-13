@@ -140,7 +140,7 @@ function install_python3_and_deps() {
 	CURR_PYAML_VER="${2:-Unknown}"
 	if (whiptail --title "Python 3 and Dependencies" --yesno "Python 3.6.9 or later (Current = $CURR_PYTHON_VER), ruamel.yaml 0.16.12 or later (Current = $CURR_PYAML_VER), blessed and pip3 are required for IOTstack to function correctly. Install these now?" 20 78); then
 		sudo apt update
-		sudo apt install -y python3-pip python3-dev
+		sudo apt install -y python3-pip python3-dev python3-setuptools
 		if [ $? -eq 0 ]; then
 			PYTHON_VERSION_GOOD="true"
 		else
