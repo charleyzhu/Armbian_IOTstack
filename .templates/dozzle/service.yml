@@ -6,4 +6,4 @@ dozzle:
   #ports:
   # - "8888:8080"
   volumes:
-    - /var/run/docker.sock:/var/run/docker.sock
+    - /run/docker.sock:/var/run/docker.sock

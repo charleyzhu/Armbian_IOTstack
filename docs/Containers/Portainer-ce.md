@@ -123,7 +123,7 @@ As soon as you are happy that *Portainer CE* meets your needs, you can dispense 
 		    ports:
 		      - "9000:9000"
 		    volumes:
-		      - /var/run/docker.sock:/var/run/docker.sock
+		      - /run/docker.sock:/var/run/docker.sock
 		      - ./volumes/portainer/data:/data
 		```
 		
