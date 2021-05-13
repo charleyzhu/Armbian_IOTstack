@@ -3,7 +3,7 @@ homebridge:
   image: oznu/homebridge:no-avahi-arm32v6
   restart: unless-stopped
   environment:
-    - TZ=Etc/UTC
+    - TZ=Asia/Shanghai
     - PGID=1000
     - PUID=1000
     - HOMEBRIDGE_CONFIG_UI=1

@@ -15,7 +15,7 @@ servie a working MQTT server is required and that have to be configured.
 * `Z2MA_SETTINGS__MQTTSERVER=mosquitto` - The MQTT service instance which is used by Zigbee2Mqtt instance. Here, "mosquitto" is the name of the container.
 * `Z2MA_SETTINGS__MQTTUSERNAME=name` - Used if your MQTT service has authentication enabled. Optional.
 * `Z2MA_SETTINGS__MQTTPASSWORD=password` - Used if your MQTT service has authentication enabled. Optional.
-* `TZ=Etc/UTC`- Set to your timezone. Optional but recommended.
+* `TZ=Asia/Shanghai`- Set to your timezone. Optional but recommended.
 
 ## Accessing the UI
 

@@ -2,7 +2,7 @@ mariadb:
   image: linuxserver/mariadb
   container_name: mariadb
   environment:
-    - TZ=Etc/UTC
+    - TZ=Asia/Shanghai
     - PUID=1000
     - PGID=1000
     - MYSQL_ROOT_PASSWORD=%randomAdminPassword%

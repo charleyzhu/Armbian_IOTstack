@@ -3,7 +3,7 @@ adguardhome:
   image: adguard/adguardhome
   restart: unless-stopped
   environment:
-    - TZ=Etc/UTC
+    - TZ=Asia/Shanghai
   # enable host mode to activate DHCP server on ports 67/udp & 68/tcp+udp
   # note that you must also disable all other ports if you enable host mode
   # network_mode: host

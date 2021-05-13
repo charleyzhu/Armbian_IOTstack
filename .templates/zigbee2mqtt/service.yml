@@ -2,7 +2,7 @@ zigbee2mqtt:
   container_name: zigbee2mqtt
   build: ./.templates/zigbee2mqtt/.
   environment:
-    - TZ=Etc/UTC
+    - TZ=Asia/Shanghai
   ports:
     - "8080:8080"
   volumes:
