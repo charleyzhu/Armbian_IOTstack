@@ -279,8 +279,8 @@ touch .new_install
 echo "Enter in the sudo password when prompted, to install dependencies"
 
 sudo apt-get install git -y
-git clone https://github.com/SensorsIot/IOTstack.git
-cd IOTstack
+git clone https://github.com/charleyzhu/Armbian_IOTstack.git
+cd Armbian_IOTstack
 
 if [ $? -eq 0 ]; then
   echo "IOTstack cloned"
